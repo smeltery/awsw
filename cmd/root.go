@@ -22,6 +22,7 @@ var (
 // SetVersion sets the version string from main.
 func SetVersion(v string) {
 	version = v
+	rootCmd.Version = v
 }
 
 // SetExecutor replaces the command executor (for testing).
