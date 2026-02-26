@@ -1,0 +1,11 @@
+# Build
+awsw
+dist/
+
+# Coverage
+*.out
+
+# IDE
+.idea/
+.vscode/
+*.swp

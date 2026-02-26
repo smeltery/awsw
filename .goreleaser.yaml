@@ -1,0 +1,38 @@
+version: 2
+
+builds:
+  - binary: awsw
+    goos: [darwin, linux]
+    goarch: [amd64, arm64]
+    ldflags:
+      - -s -w -X main.version={{.Version}}
+
+homebrew_casks:
+  - repository:
+      owner: dotbrains
+      name: homebrew-tap
+      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
+    name: awsw
+    homepage: https://github.com/dotbrains/awsw
+    description: Seamlessly switch between AWS SSO accounts and EKS contexts
+    license: "MIT"
+    hooks:
+      post:
+        install: |
+          if OS.mac?
+            system "xattr", "-dr", "com.apple.quarantine", "#{staged_path}/awsw"
+          end
+
+archives:
+  - formats: [tar.gz]
+    name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
+
+checksum:
+  name_template: checksums.txt
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^chore:"
