@@ -23,8 +23,7 @@ A lightweight CLI for seamlessly switching between AWS SSO accounts and EKS clus
 ### Via Homebrew
 
 ```sh
-brew tap dotbrains/tap
-brew install awsw
+brew install --cask dotbrains/tap/awsw
 ```
 
 ### From source
