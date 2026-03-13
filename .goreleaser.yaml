@@ -11,7 +11,7 @@ homebrew_casks:
   - repository:
       owner: dotbrains
       name: homebrew-tap
-      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
+      token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
     name: awsw
     homepage: https://github.com/dotbrains/awsw
     description: Seamlessly switch between AWS SSO accounts and EKS contexts
