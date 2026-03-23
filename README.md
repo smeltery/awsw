@@ -5,7 +5,7 @@
 [![CI](https://github.com/dotbrains/awsw/actions/workflows/ci.yml/badge.svg)](https://github.com/dotbrains/awsw/actions/workflows/ci.yml)
 [![Release](https://github.com/dotbrains/awsw/actions/workflows/release.yml/badge.svg)](https://github.com/dotbrains/awsw/actions/workflows/release.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/dotbrains/awsw)](https://goreportcard.com/report/github.com/dotbrains/awsw)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: PolyForm Shield 1.0.0](https://img.shields.io/badge/License-PolyForm%20Shield%201.0.0-blue.svg)](https://polyformproject.org/licenses/shield/1.0.0/)
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS_SSO-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
@@ -140,4 +140,4 @@ Generate `~/.aws/config` with all SSO profiles and populate `~/.kube/config` wit
 
 ## License
 
-[MIT](LICENSE)
+This project is licensed under the [PolyForm Shield License 1.0.0](https://polyformproject.org/licenses/shield/1.0.0/) — see [LICENSE](LICENSE) for details.
