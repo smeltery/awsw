@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dotbrains/awsw/internal/shell"
+	"github.com/smeltery/awsw/internal/shell"
 	"github.com/spf13/cobra"
 )
 

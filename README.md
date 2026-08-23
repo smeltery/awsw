@@ -1,10 +1,10 @@
 # awsw
 
-![awsw](https://raw.githubusercontent.com/dotbrains/awsw/master/assets/og-image.svg)
+![awsw](https://raw.githubusercontent.com/smeltery/awsw/master/assets/og-image.svg)
 
-[![CI](https://github.com/dotbrains/awsw/actions/workflows/ci.yml/badge.svg)](https://github.com/dotbrains/awsw/actions/workflows/ci.yml)
-[![Release](https://github.com/dotbrains/awsw/actions/workflows/release.yml/badge.svg)](https://github.com/dotbrains/awsw/actions/workflows/release.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dotbrains/awsw)](https://goreportcard.com/report/github.com/dotbrains/awsw)
+[![CI](https://github.com/smeltery/awsw/actions/workflows/ci.yml/badge.svg)](https://github.com/smeltery/awsw/actions/workflows/ci.yml)
+[![Release](https://github.com/smeltery/awsw/actions/workflows/release.yml/badge.svg)](https://github.com/smeltery/awsw/actions/workflows/release.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/smeltery/awsw)](https://goreportcard.com/report/github.com/smeltery/awsw)
 [![License: PolyForm Shield 1.0.0](https://img.shields.io/badge/License-PolyForm%20Shield%201.0.0-blue.svg)](https://polyformproject.org/licenses/shield/1.0.0/)
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
@@ -23,13 +23,13 @@ A lightweight CLI for seamlessly switching between AWS SSO accounts and EKS clus
 ### Via Homebrew
 
 ```sh
-brew install --cask dotbrains/tap/awsw
+brew install --cask smeltery/tap/awsw
 ```
 
 ### From source
 
 ```sh
-git clone https://github.com/dotbrains/awsw.git
+git clone https://github.com/smeltery/awsw.git
 cd awsw
 make install
 ```

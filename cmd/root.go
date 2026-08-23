@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dotbrains/awsw/internal/config"
-	awswexec "github.com/dotbrains/awsw/internal/exec"
-	"github.com/dotbrains/awsw/internal/shell"
+	"github.com/smeltery/awsw/internal/config"
+	awswexec "github.com/smeltery/awsw/internal/exec"
+	"github.com/smeltery/awsw/internal/shell"
 	"github.com/spf13/cobra"
 )
 

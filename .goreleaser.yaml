@@ -9,11 +9,11 @@ builds:
 
 homebrew_casks:
   - repository:
-      owner: dotbrains
+      owner: smeltery
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
     name: awsw
-    homepage: https://github.com/dotbrains/awsw
+    homepage: https://github.com/smeltery/awsw
     description: Seamlessly switch between AWS SSO accounts and EKS contexts
     license: "MIT"
     hooks:

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dotbrains/awsw/internal/config"
+	"github.com/smeltery/awsw/internal/config"
 )
 
 func init() {

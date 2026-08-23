@@ -8,7 +8,7 @@
 ## Getting started
 
 ```sh
-git clone https://github.com/dotbrains/awsw.git
+git clone https://github.com/smeltery/awsw.git
 cd awsw
 make build
 ```

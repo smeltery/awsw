@@ -1,10 +1,10 @@
 # awsw — AWS Account & EKS Context Switcher
 
-![awsw](https://raw.githubusercontent.com/dotbrains/awsw/main/assets/og-image.svg)
+![awsw](https://raw.githubusercontent.com/smeltery/awsw/main/assets/og-image.svg)
 
-[![CI](https://github.com/dotbrains/awsw/actions/workflows/ci.yml/badge.svg)](https://github.com/dotbrains/awsw/actions/workflows/ci.yml)
-[![Release](https://github.com/dotbrains/awsw/actions/workflows/release.yml/badge.svg)](https://github.com/dotbrains/awsw/actions/workflows/release.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dotbrains/awsw)](https://goreportcard.com/report/github.com/dotbrains/awsw)
+[![CI](https://github.com/smeltery/awsw/actions/workflows/ci.yml/badge.svg)](https://github.com/smeltery/awsw/actions/workflows/ci.yml)
+[![Release](https://github.com/smeltery/awsw/actions/workflows/release.yml/badge.svg)](https://github.com/smeltery/awsw/actions/workflows/release.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/smeltery/awsw)](https://goreportcard.com/report/github.com/smeltery/awsw)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
@@ -326,10 +326,10 @@ builds:
 
 brews:
   - repository:
-      owner: dotbrains
+      owner: smeltery
       name: homebrew-tap
     name: awsw
-    homepage: https://github.com/dotbrains/awsw
+    homepage: https://github.com/smeltery/awsw
     description: Seamlessly switch between AWS SSO accounts and EKS contexts
     license: "MIT"
     install: |
@@ -355,10 +355,10 @@ changelog:
 On each tagged release, GoReleaser:
 1. Cross-compiles for macOS (arm64/amd64) and Linux (amd64/arm64).
 2. Creates GitHub Release with binaries and checksums.
-3. Pushes a Homebrew formula to `dotbrains/homebrew-tap`, enabling:
+3. Pushes a Homebrew formula to `smeltery/homebrew-tap`, enabling:
 
 ```
-brew tap dotbrains/tap
+brew tap smeltery/tap
 brew install awsw
 ```
 

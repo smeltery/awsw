@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/dotbrains/awsw/cmd"
+	"github.com/smeltery/awsw/cmd"
 )
 
 var version = "dev"
